@@ -1,0 +1,16 @@
+while True:
+  p = float(input ("first number "))
+  z = input ("mm")
+  k = float(input ("to number "))
+  if z == "*":
+    print (p*k)
+  elif z == "-":
+    print(p-k)
+  elif z == "+":
+    print(p+k)
+  else:
+    print ("error")
+  oo= input ("hello do you more type      yes or no ")
+  if oo== "no":
+    break
+
